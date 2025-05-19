@@ -1,0 +1,11 @@
+.link-container {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 .5rem;
+    padding: .3rem;
+}
+
+.link-container:hover {
+    background-color: rgba(250, 235, 215, 0.351);
+    border-radius: 10px;
+}

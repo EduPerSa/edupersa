@@ -22,16 +22,3 @@
     gap: 1rem;
 }
 
-.header-menu-container a {
-    text-decoration: none;
-    color: inherit;
-    margin: 0 .5rem;
-    padding: .3rem;
-}
-
-.header-menu-container a:hover {
-    color: grey;
-    background-color: antiquewhite;
-    border-radius: 10px;
-}
-

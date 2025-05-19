@@ -1,5 +1,7 @@
 import styles from "./Menu.module.css";
 
+import MenuButton from "./MenuButton.tsx";
+
 export default function Menu() {
     return (
         <div className={styles["header"]}>
@@ -8,28 +10,13 @@ export default function Menu() {
                     <span> LOGO </span>
                     <span> Nombre </span>
                 </div>
+                        
                 <div className={styles["header-menu-container"]}>
                     <nav>
-                        <a href="">
-                            <span>
-                                About me
-                            </span>
-                        </a>
-                        <a href="">
-                            <span>
-                                Technologies
-                            </span>
-                        </a>
-                        <a href="">
-                            <span>
-                                Porfolio
-                            </span>
-                        </a>
-                        <a href="">
-                            <span>
-                                Contact
-                            </span>
-                        </a>
+                        <MenuButton link=""> About me </MenuButton>
+                        <MenuButton link=""> Technologies </MenuButton>
+                        <MenuButton link=""> Porfolio </MenuButton>
+                        <MenuButton link=""> Contact </MenuButton>
                     </nav>
                     <div>
                         Selector de Idiomas
