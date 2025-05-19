@@ -1,5 +1,9 @@
- export default function App(){
-    return(
-        <h1> MY PAGE </h1>
+import Menu from "./components/Menu/Menu.tsx";
+
+export default function App() {
+    return (
+        <>
+            <Menu></Menu>
+        </>
     )
- }
+}
