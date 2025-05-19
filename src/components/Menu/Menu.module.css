@@ -1,0 +1,37 @@
+.header {
+    background-color: black;
+    position: sticky;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.header-menu-container {
+    display:flex ;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.header-menu-container a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 .5rem;
+    padding: .3rem;
+}
+
+.header-menu-container a:hover {
+    color: grey;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
