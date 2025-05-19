@@ -1,24 +1,48 @@
-.header {
+.header-container{
     background-color: black;
     position: sticky;
 }
 
-.header-container {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-logo-container {
+.logo-container {
     display: flex;
     flex-direction: column;
     margin-left: 3rem;
 }
 
-.header-menu-container {
+.logo-container img {
+    background-color: black;
+    border: 2px solid yellowgreen;
+    border-radius: 40%;
+    padding: .2rem;
+}
+
+.menu-container {
     display:flex ;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 1rem;
 }
 
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}

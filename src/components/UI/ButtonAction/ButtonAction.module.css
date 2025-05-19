@@ -1,0 +1,19 @@
+.button-action {
+    margin: var(--button-menu-margin);
+    padding: var(--button-menu-padding);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.only-text {
+    background-color: rgba(0, 0, 0, 0.293);
+    border-style: none;
+    color: var(--root-prymary-color);
+}
+
+.button-action:hover {
+    border-style: solid;
+    border: var(--button-menu-border);
+    border-radius: var(--button-menu-border-radius);
+    background-color: var(--button-menu-bg-color-hover);
+}

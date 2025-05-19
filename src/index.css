@@ -1,13 +1,36 @@
-:root {
+body {
+  --root-background-color:  #242424;
+  --root-prymary-color: #dfdfd6;
+  --root-font-family: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --root-line-height: 1.5;
+  --root-line-weight: 400;
+  --root-color-scheme: light dark;
+
+  --button-menu-bg-color-hover: rgba(249, 243, 235, 0.175);
+  --button-menu-margin: 0 0.5rem;
+  --button-menu-padding: .5rem;
+  --button-menu-border-radius: 10px;
+
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --accent-color: #ffc107;
+  --text-color-primary: #333;
+  --text-color-secondary: #666;
+  --background-color: #f8f9fa;
+  --border-radius: 5px;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+
   box-sizing: border-box;
   
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: var(--font-family-base);
+  line-height: var(--root-line-height);
+  font-weight: var(--root-line-weight);
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: var(--root-color-scheme);
+  color: var(--root-prymary-color);
+  background-color: var(--root-background-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -1,11 +1,19 @@
 .link-container {
+    white-space: nowrap;
     text-decoration: none;
     color: inherit;
-    margin: 0 .5rem;
-    padding: .3rem;
+    margin: var(--button-menu-margin);
+    padding: var(--button-menu-padding);
 }
 
 .link-container:hover {
-    background-color: rgba(250, 235, 215, 0.351);
+    color: var(--root-prymary-color);
+    background-color: var(--button-menu-bg-color-hover);
     border-radius: 10px;
+}
+
+.selected {
+    background-color: rgba(99, 190, 190, 0.673);
+    color: black;
+    border-radius: var(--button-menu-border-radius);
 }
