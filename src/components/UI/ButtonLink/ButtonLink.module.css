@@ -1,4 +1,4 @@
-.button-action {
+.link-container {
     background-color: beige;
     white-space: nowrap;
     text-decoration: none;
@@ -8,16 +8,25 @@
     padding: var(--button-menu-padding);
 }
 
-.button-action:hover {
+.link-container:hover {
     background-color: var(--button-menu-bg-color-hover);
     border-radius: var(--button-menu-border-radius);
 }
 
 .only-text {
-    border-style: none;
     background-color:rgba(0, 0, 0, 0);
 }
 
 .only-text:hover {
     color: antiquewhite;
+}
+
+
+.selected {
+    background-color: rgba(99, 190, 190, 0.673);
+    color: antiquewhite;
+}
+
+.selected:hover {
+    background-color: rgba(0, 255, 255, 0.673);
 }

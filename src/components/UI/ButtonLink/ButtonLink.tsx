@@ -1,6 +1,6 @@
 import type { MouseEvent } from "react";
 
-import styles from "./MenuButton.module.css";
+import styles from "./ButtonLink.module.css";
 
 interface MyProps {
     /** What is wrapped for the component */
@@ -14,12 +14,21 @@ interface MyProps {
     /** The element is selected */
     selected?: boolean;
     onClick?: (event: MouseEvent<HTMLAnchorElement>) => void;
+    onlyText?: boolean;
 }
 
 
-const MenuButton = ({ text, link, className, selected, onClick }: MyProps) => {
+const ButtonLink = ({ text, link, className, selected, onClick, onlyText }: MyProps) => {
 
-    const cssStyle = `${styles["link-container"]} ${className? className : null} ${selected? styles["selected"]: null}`
+    let cssStyle = `${styles["link-container"]} ${className? className : ""}`
+
+    if (selected) {
+        cssStyle += ` ${styles["selected"]}`
+    }
+
+    if (onlyText) {
+        cssStyle += ` ${styles["only-text"]}`
+    }
 
     return (
         <a href={link} className={cssStyle} onClick={onClick}>
@@ -30,5 +39,5 @@ const MenuButton = ({ text, link, className, selected, onClick }: MyProps) => {
     )
 }
 
-export default MenuButton;
+export default ButtonLink;
 

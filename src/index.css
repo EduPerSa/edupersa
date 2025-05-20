@@ -8,7 +8,7 @@ body {
 
   --button-menu-bg-color-hover: rgba(249, 243, 235, 0.175);
   --button-menu-margin: 0 0.5rem;
-  --button-menu-padding: .5rem;
+  --button-menu-padding: .2rem .3rem;
   --button-menu-border-radius: 10px;
 
   --primary-color: #007bff;

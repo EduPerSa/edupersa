@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    white-space: nowrap;
+    text-decoration: none;
+    color: inherit;
+    margin: var(--button-menu-margin);
+    padding: var(--button-menu-padding);
+}
