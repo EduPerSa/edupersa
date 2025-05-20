@@ -6,21 +6,8 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-.logo-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3rem;
-}
-
-.logo-container img {
-    background-color: black;
-    border: 2px solid yellowgreen;
-    border-radius: 40%;
-    padding: .2rem;
 }
 
 .menu-container {
@@ -28,14 +15,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 1rem;
-}
-
-.buttons-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .social-container {

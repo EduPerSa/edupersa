@@ -1,8 +1,8 @@
 import styles from "./Menu.module.css";
 
 import ButtonAction from "../UI/ButtonAction/ButtonAction.tsx";
-import Logo from "../../assets/react.svg";
 import MenuNav from "./MenuNav.tsx";
+import MenuLogo from "./MenuLogo.tsx";
 
 
 export default function Menu() {
@@ -10,10 +10,7 @@ export default function Menu() {
     return (
         <div className={styles["header-container"]}>
             <header className={styles["header"]}>
-                <div className={styles["logo-container"]}>
-                    <img src={Logo} alt="Logo" />
-                    <span> edupersa </span>
-                </div>
+                <MenuLogo />
                 <div className={styles["menu-container"]}>
                     <MenuNav />
                     <ButtonAction onlyText onClick={() => alert("HOLA...")}> Selector de Idiomas </ButtonAction>

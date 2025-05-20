@@ -1,0 +1,12 @@
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.logo-container img {
+    background-color: black;
+    border: 2px solid yellowgreen;
+    border-radius: 40%;
+    padding: .2rem;
+}

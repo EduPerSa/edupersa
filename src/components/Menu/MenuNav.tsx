@@ -16,7 +16,7 @@ export default function MenuNav() {
     console.log("Menu, menuSelected --->", menuSelected);
 
     return (
-        <nav className={styles["container"]}>
+        <nav className={styles["nav-container"]}>
             <ButtonLink
                 link=""
                 selected={menuSelected === "about"}
