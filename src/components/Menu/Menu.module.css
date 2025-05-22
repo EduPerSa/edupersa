@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: .5rem;
 }
 
 .menu-container {
@@ -17,11 +18,11 @@
     gap: 1rem;
 }
 
-.social-container {
-    display: flex;
+.icon-container {
+    display:flex ;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    white-space: nowrap;
+    gap: .5rem;
 }

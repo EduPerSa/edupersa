@@ -1,9 +1,10 @@
 import styles from "./Menu.module.css";
 
-import ButtonAction from "../UI/ButtonAction/ButtonAction.tsx";
 import MenuNav from "./MenuNav.tsx";
 import MenuLogo from "./MenuLogo.tsx";
-
+import translateIcon from "../../assets/translate-icon.jpg";
+import Icon from "../UI/Icon/Icon.tsx";
+import MenuSocialIcons from "./MenuSocialIcons.tsx";
 
 export default function Menu() {
 
@@ -13,10 +14,10 @@ export default function Menu() {
                 <MenuLogo />
                 <div className={styles["menu-container"]}>
                     <MenuNav />
-                    <ButtonAction onlyText onClick={() => alert("HOLA...")}> Selector de Idiomas </ButtonAction>
-                    <div className={styles["social-container"]}>
-                        Imagenes de Redes Sociales
-                    </div>
+                </div>
+                <Icon src={translateIcon} alt="Translate..." onClick={() => alert("Proximamente seleccion de lenguaje...")} />
+                <div className={styles["icon-container"]}>
+                    <MenuSocialIcons />
                 </div>
             </header>
         </div>

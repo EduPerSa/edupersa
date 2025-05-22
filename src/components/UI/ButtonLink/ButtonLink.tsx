@@ -8,7 +8,7 @@ interface MyProps {
     /** Texto to click */
     text: string;
     /** Link to. */
-    link?: string;
+    href?: string;
     /** All others props */
     className?: string;
     /** The element is selected */
@@ -18,7 +18,7 @@ interface MyProps {
 }
 
 
-const ButtonLink = ({ text, link, className, selected, onClick, onlyText }: MyProps) => {
+const ButtonLink = ({ text, href, className, selected, onClick, onlyText }: MyProps) => {
 
     let cssStyle = `${styles["link-container"]} ${className? className : ""}`
 
@@ -31,7 +31,7 @@ const ButtonLink = ({ text, link, className, selected, onClick, onlyText }: MyPr
     }
 
     return (
-        <a href={link} className={cssStyle} onClick={onClick}>
+        <a href={href} className={cssStyle} onClick={onClick}>
             <span>
                 {text}
             </span>

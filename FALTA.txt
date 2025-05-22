@@ -1,0 +1,33 @@
+
+
+
+        DO                  DOING               DONE
+
+                                                Menu componente
+                                                    Logo
+                                                    Nav
+                                                    Translate
+                                                    Social Links
+
+        About Me
+
+        Technologies
+
+        Portfolio
+
+        Get in touch
+
+        Footer
+
+
+FALTA
+        
+        Cambiar las imagenes de las redes sociales
+
+        Agregar componente o translate con el boton del menu
+
+        Anuncio de Cookies
+
+        Proteccion de datos en europa
+
+
