@@ -1,4 +1,5 @@
 .button-action {
+    cursor: pointer;
     background-color: beige;
     white-space: nowrap;
     text-decoration: none;

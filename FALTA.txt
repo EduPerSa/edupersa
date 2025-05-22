@@ -10,6 +10,7 @@
                                                     Social Links
 
         About Me
+            Descargar el curriculum en PDF
 
         Technologies
 
@@ -30,4 +31,5 @@ FALTA
 
         Proteccion de datos en europa
 
+        
 
