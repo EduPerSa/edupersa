@@ -10,7 +10,7 @@ const SliderSection: React.FC = () => {
 
   type SlideContent = string;
   const slides: SlideContent[] = [
-    "Hacer que tus desafios sean diversion para mi",
+    "Hacer que tus desafios sean mi preocupacion",
     "Ahorrarte tiempo y dinero",
     "Entregarte la mejor solución y optimizar tus ideas",
   ];
