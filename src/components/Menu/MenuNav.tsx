@@ -25,7 +25,7 @@ export default function MenuNav() {
                 onlyText
             />
             <ButtonLink
-                href=""
+                href="#slider"
                 selected={menuSelected === "porfolio"}
                 onClick={(event) => handleSetMenuSelected(event, "porfolio")}
                 text="Portfolio"
