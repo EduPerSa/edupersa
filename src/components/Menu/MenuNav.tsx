@@ -18,21 +18,21 @@ export default function MenuNav() {
     return (
         <nav className={styles["nav-container"]}>
             <ButtonLink
-                link=""
+                href="#about-me"
                 selected={menuSelected === "about"}
                 onClick={(event) => handleSetMenuSelected(event, "about")}
                 text="About me"
                 onlyText
             />
             <ButtonLink
-                link=""
+                href=""
                 selected={menuSelected === "porfolio"}
                 onClick={(event) => handleSetMenuSelected(event, "porfolio")}
                 text="Portfolio"
                 onlyText
             />
             <ButtonLink
-                link=""
+                href=""
                 selected={menuSelected === "touch"}
                 onClick={(event) => handleSetMenuSelected(event, "touch")}
                 text="Get in touch"

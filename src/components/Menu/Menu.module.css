@@ -1,9 +1,9 @@
 .header-container{
     background-color: black;
-    position: sticky;
 }
 
 .header {
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -25,4 +25,11 @@
     align-items: center;
     flex-wrap: nowrap;
     gap: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
 }

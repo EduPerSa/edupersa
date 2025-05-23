@@ -1,5 +1,5 @@
 body {
-  --root-background-color:  #242424;
+  --root-background-color: #242424;
   --root-prymary-color: #dfdfd6;
   --root-font-family: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --root-line-height: 1.5;
@@ -21,12 +21,15 @@ body {
   --spacing-small: 0.5rem;
   --spacing-medium: 1rem;
   --spacing-large: 1.5rem;
+  --font-size: 22px;
+  --media-mobile-screen: 600px;
 
   box-sizing: border-box;
-  
+
   font-family: var(--font-family-base);
   line-height: var(--root-line-height);
   font-weight: var(--root-line-weight);
+  font-size: var(--font-size);
 
   color-scheme: var(--root-color-scheme);
   color: var(--root-prymary-color);
@@ -39,4 +42,10 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    --font-size: 12px;
+  }
 }

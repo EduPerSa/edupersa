@@ -12,6 +12,9 @@
         About Me
             Descargar el curriculum en PDF
 
+        Let me...
+            Slide con tres frases
+        
         Technologies
 
         Portfolio
@@ -22,6 +25,10 @@
 
 
 FALTA
+
+        Adaptable para moviles
+
+        Agregar animaciones
         
         Cambiar las imagenes de las redes sociales
 

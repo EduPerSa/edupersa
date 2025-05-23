@@ -1,0 +1,31 @@
+.link-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.link-section-container:hover {
+    border-color: aqua;
+    color: aqua;
+}
+
+.link-section-container li {
+    color: inherit;
+    list-style: none;
+}
+
+.link-section-container a {
+    padding: .5rem 1rem;
+    white-space: nowrap;
+    color: inherit;
+    text-decoration: none;
+}

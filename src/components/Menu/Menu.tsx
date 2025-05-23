@@ -15,8 +15,8 @@ export default function Menu() {
                 <div className={styles["menu-container"]}>
                     <MenuNav />
                 </div>
-                <Icon src={translateIcon} alt="Translate..." onClick={() => alert("Proximamente seleccion de lenguaje...")} />
                 <div className={styles["icon-container"]}>
+                    <Icon src={translateIcon} alt="Translate..." onClick={() => alert("Proximamente seleccion de lenguaje...")} />
                     <MenuSocialIcons />
                 </div>
             </header>
