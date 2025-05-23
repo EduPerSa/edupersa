@@ -9,8 +9,7 @@
                                                     Translate
                                                     Social Links
 
-        About Me
-            Descargar el curriculum en PDF
+                                                About Me
 
         Let me...
             Slide con tres frases
@@ -25,8 +24,11 @@
 
 
 FALTA
+        Corregir el funcionamiento de los botones de secciones ya que hace una peticion de la pagina.
 
-        Adaptable para moviles
+        Descargar el curriculum en PDF
+
+                            Adaptable para moviles
 
         Agregar animaciones
         
